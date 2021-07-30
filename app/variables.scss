@@ -1,0 +1,115 @@
+// Accent
+$raised-warn: #bd5769;
+
+// Colors
+$app-bar-background: #27292d;
+$brand: #cddc39;
+$brand-hover: #c0ca33;
+$error-color: #cf6679;
+$warn-color: #bd5769; // Equivalent of raised-warn
+$messenger-bubble-color: #eff3f6;
+$component-snackbar: #E3E3E3;
+$break-color: #D8D8D8;
+
+/// Backgrounds
+$content-background: #010101;
+$background-elevation-1: #27292d;
+$background-elevation-2: #383b40;
+$background-elevation-3: #5e626b;
+$background-inverted: #ffffff;
+$background-white: #D8D8D8;
+$background-inverted-12: rgba(#fff, 0.12);
+$background-inverted-15: rgba(#fff, 0.15);
+$background-inverted-30: rgba(#fff, 0.30);
+$background-inverted-50: rgba(#fff, 0.50);
+$background-addnewitem: #D8D8D8;
+
+// Backgrounds Mutated
+$background-elevation-1-opacity-50: rgba($background-elevation-1, 0.5);
+$content-background-opacity-50: rgba($content-background, 0.5);
+
+// Component
+$component-button: #383B40;
+$component-tooltip: #A9A9A9;
+$component-badge: #EF5350;
+$component-text: #FFFFFF;
+
+/// CSS Variables
+$app-bar-height: 56px;
+$candidate-bar-height: 88px;
+
+/// Text Colors
+$text-accent-default: rgba(#000, 0.65);
+$text-accent-title: rgba(#000, 0.87);
+$text-brown: #827717;
+$text-default: rgba(#fff, 0.65);
+$text-disabled: rgba(#fff, 0.38);
+$text-title: rgba(#fff, 0.9);
+
+// RGBA Colors
+$black-opacity-12: rgba(#000, 0.12);
+$black-opacity-24: rgba(#000, 0.24);
+$black-opacity-54: rgba(#000, 0.54);
+$black-opacity-80: rgba(#000, 0.80);
+$black-opacity-85: rgba(#000, 0.85);
+$black-opacity-87: rgba(#000, 0.87);
+$brand-opacity-12: rgba($brand, 0.12);
+$brand-opacity-24: rgba($brand, 0.24);
+$brand-opacity-32: rgba($brand, 0.32);
+$brand-opacity-38: rgba($brand, 0.38);
+$brand-opacity-56: rgba($brand, 0.56);
+$column-shadow-color: rgba(56, 59, 64, 0.7);
+$white-opacity-6: rgba(#fff, 0.06);
+$white-opacity-12: rgba(#fff, 0.12);
+$white-opacity-24: rgba(#fff, 0.24);
+$white-opacity-38: rgba(#fff, 0.38);
+$white-opacity-54: rgba(#fff, 0.54);
+$white-opacity-60: rgba(#fff, 0.60);
+$white-opacity-65: rgba(#fff, 0.65);
+$white-opacity-87: rgba(#fff, 0.87);
+$white-opacity-90: rgba(#fff, 0.9);
+
+//Jobs alerts
+$green-alert: #78AC6E;
+$red-alert: #CF6679;
+
+// Shadows
+$card-box-shadow: 0 2px 2px 0 $black-opacity-24, 0 0 2px 0 $black-opacity-12;
+$private-text-shadow: 0 0 13px rgba($background-inverted, 0.87);
+$private-link-shadow: 0 0 13px rgba($brand, 1);
+/// Shadows
+$private-text-shadow: 0 0 13px rgba($background-inverted, 0.87);
+$button-shadow: 0 1px 5px rgba(0, 0, 0, .2), 0 2px 2px rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .12);
+$box-shadow-1dp: 0 1px 3px rgba(0, 0, 0, .2), 0 1px 1px rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);
+$dark-shadow-mobile: 1 1 6 rgba($content-background, 0.4);
+$light-shadow-mobile: 1 1 6 rgba(#7E8919, 0.4);
+// Fonts
+$default-font-family: "Muli", "Helvetica", "Arial", sans-serif;
+
+$content-small-breakpoint: 450px;
+$app-bar-breakpoint: 920px;
+$content-breakpoint: 720px;
+$content-detail-breakpoint: 920px;
+$tool-bar-height: 56px;
+$top-bars-height: $tool-bar-height * 2;
+$wide-content: 1024px;
+$normal-content: 660px;
+$dialogs-max-width: 600px;
+$mobile-dialogs-max-width: 280px;
+$materrial-max-width: 920px;
+$app-bar-window-minimum-height: 400px;
+$bottom-bar-breakpoint: 960px;
+
+/* Transitions - Based on Angular Material */
+$swift-ease-out-duration: 0.4s !default;
+$swift-ease-out-timing-function: cubic-bezier(.25, .8, .25, 1) !default;
+$swift-ease-out: all $swift-ease-out-duration $swift-ease-out-timing-function !default;
+
+$hexagon-path: polygon(45% 1.33975%, 46.5798% 0.60307%, 48.26352% 0.15192%, 50% 0%, 51.73648% 0.15192%, 53.4202% 0.60307%, 55% 1.33975%, 89.64102% 21.33975%, 91.06889% 22.33956%, 92.30146% 23.57212%, 93.30127% 25%, 94.03794% 26.5798%, 94.48909% 28.26352%, 94.64102% 30%, 94.64102% 70%, 94.48909% 71.73648%, 94.03794% 73.4202%, 93.30127% 75%, 92.30146% 76.42788%, 91.06889% 77.66044%, 89.64102% 78.66025%, 55% 98.66025%, 53.4202% 99.39693%, 51.73648% 99.84808%, 50% 100%, 48.26352% 99.84808%, 46.5798% 99.39693%, 45% 98.66025%, 10.35898% 78.66025%, 8.93111% 77.66044%, 7.69854% 76.42788%, 6.69873% 75%, 5.96206% 73.4202%, 5.51091% 71.73648%, 5.35898% 70%, 5.35898% 30%, 5.51091% 28.26352%, 5.96206% 26.5798%, 6.69873% 25%, 7.69854% 23.57212%, 8.93111% 22.33956%, 10.35898% 21.33975%);
+
+//[Material] md-card
+$card-radius: 2px;
+$shadow-ambient-shadow-opacity: 0.12 !default;
+$shadow-key-penumbra-opacity: 0.14 !default;
+$shadow-key-umbra-opacity: 0.2 !default;
+$material-shadow-2dp: 0 1px 5px rgba(#000, $shadow-key-umbra-opacity), 0 2px 2px rgba(#000, $shadow-key-penumbra-opacity), 0 3px 1px -2px rgba(#000, $shadow-ambient-shadow-opacity) !default;
